@@ -64,3 +64,7 @@ nav .navigator ul li{
     margin: 10px auto;
     border-radius: 22px;
 }
+
+.due-in-uno{
+    width: calc((100% / 3) * 2);
+}
