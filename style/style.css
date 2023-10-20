@@ -351,3 +351,64 @@ nav .navigator ul li{
     margin-right: 6px;
     font-size: 20px;
 }
+
+/*GEt Started*/
+
+.started{
+    width: 100%;
+    background-color: #9792e4;
+    padding: 50px 0px;
+}
+
+.contenitore-started{
+    width: 90%;
+    margin: auto;
+}
+
+.stampatello{
+    text-transform: uppercase;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.sottotitolo-started{
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: white;
+    padding: 25px;
+}
+
+.titolo-sterted{
+    color: #f7b848;
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.testo-started{
+    color: white;
+    font-size: 20px;
+    text-align:center ;
+    margin-bottom: 30px;
+}
+
+.bottone-started{
+    background-color: white;
+    color: #9792e4;
+    border: 0px;
+    border-radius: 20px;
+    padding: 10px 20px 10px 20px;
+    margin-bottom: 20px;
+}
+.testo-info{
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    line-height: 20px;
+}
+
+.privacy{
+    text-decoration: underline
+}
