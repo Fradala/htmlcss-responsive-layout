@@ -254,6 +254,7 @@ nav .navigator ul li{
 
 .contenitore-benefici{
     flex-direction: column;
+    padding-bottom: 40px;
 }
 
 .beneficio{
@@ -289,4 +290,64 @@ nav .navigator ul li{
     color: white;
     border: 0px;
     border-radius: 20px;
+}
+
+/*About*/
+
+.about{
+    width: 100%;
+    padding: 40px 0px;
+}
+
+.contenitore-about{
+    width: 90%;
+    flex-direction: column;
+}
+
+.tanto-testo-about{
+    width: 90%;
+    margin: auto;
+}
+
+.titolo-about{
+    font-size: 40px;
+    color: #9792e4;
+    margin: 30px 0px 27px 20px;
+}
+
+.testo-about{
+    font-size: 20px;
+    margin: 10px 20px 40px;
+}
+
+.faccia-about{
+    width: 90%;
+    margin: auto;
+}
+
+.foto-about{
+    width: 100%;
+    margin: 20px;
+}
+
+.sottotitolo-about{
+    color: #9792e4;
+    font-size: 40px;
+    margin: 20px;
+}
+
+.bottone-about{
+    background-color: #9792e4;
+    padding: 5px 20px 5px 20px;
+    border: 0px;
+    border-radius: 20px;
+    margin: 20px;
+    font-size: 20px;
+    color: white;
+}
+
+.fa-invision{
+    color: white;
+    margin-right: 6px;
+    font-size: 20px;
 }
