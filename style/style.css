@@ -47,6 +47,8 @@ nav .navigator ul li{
 
 /*main*/
 
+/*jumbo*/
+
 .jumbo{
     width: 100%;
 }
@@ -119,6 +121,7 @@ nav .navigator ul li{
 .contenitore-viola{
     width: 100%;
     background-color: #9792e4;
+    padding-bottom: 50px;
 }
 
 .due-colonne{
@@ -176,5 +179,46 @@ nav .navigator ul li{
 }
 
 .bottone-cont-viola{
-    
+
+}
+
+/*testimoni*/
+
+.testimoni{
+    width: 100%;
+    padding: 30px 0px 30px;
+}
+
+.testo-stampatello-testimoni{
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 30px;
+
+}
+.titolo-testimoni{
+    font-size: 40px;
+    text-align: center;
+    padding: 30px;
+    color: #9792e4;
+}
+
+.testo-testimoni{
+    text-align: center;
+    font-size: 20px;
+    padding: 20px 40px 30px 40px;
+}
+
+.contenitore-testimoni{
+    flex-direction: column;
+    width: 90%;
+}
+
+.contenitore-testimone{
+    width: 100%;
+    margin: 10px 20px 10px 20px;
+}
+
+.foto{
+    width: 100%;
 }
