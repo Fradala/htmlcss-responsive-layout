@@ -8,6 +8,10 @@
     display: flex;
 }
 
+.testo{
+    line-height: 30px;
+}
+
 /*header*/
 
 .contenitore-header{
@@ -212,13 +216,77 @@ nav .navigator ul li{
 .contenitore-testimoni{
     flex-direction: column;
     width: 90%;
+    margin: auto;
+    
 }
 
 .contenitore-testimone{
-    width: 100%;
-    margin: 10px 20px 10px 20px;
+    border-radius: 20px;
+    padding-bottom: 30px;
+    background-color: #9792e4;
+    margin-bottom: 30px;
 }
 
 .foto{
+    width: 90%;
+    margin: 10px 20px 20px 20px;
+}
+
+.testo-persone{
+    text-align: center;
+    font-size: 20px;
+    padding: 34px;
+}
+
+/*Benefici*/
+
+.benefici{
     width: 100%;
+    background-color: #9792e4;
+}
+
+.titolo-benefici{
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    padding: 50px;
+}
+
+.contenitore-benefici{
+    flex-direction: column;
+}
+
+.beneficio{
+    border-radius: 20px;
+    background-color: white;
+    width: 90%;
+    margin: 20px auto;
+    padding-bottom: 35px;
+}
+
+.numero{
+    font-size: 50px;
+    color: #9792e4;
+    margin: 40px 20px 26px 32px;
+}
+
+.sottotitolo-benefici{
+    font-size: 28px;
+    color: #9792e4;
+    margin: 20px 20px 26px 32px;
+}
+
+.testo-benefici{
+    font-size: 17px;
+    padding: 30px;
+}
+
+.bottone-benefici{
+    background-color: #9792e4;
+    font-size: 20px;
+    padding: 10px 50px 10px 50px;
+    margin-left: 23px;
+    color: white;
+    border: 0px;
+    border-radius: 20px;
 }
