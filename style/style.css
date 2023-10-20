@@ -47,7 +47,7 @@ nav .navigator ul li{
 
 /*main*/
 
-.contenitore-main{
+.jumbo{
     width: 100%;
 }
 
@@ -55,16 +55,126 @@ nav .navigator ul li{
     flex-direction: column;
     padding: 40px 0px 40px;
     
+    
 }
 
 .colonna{
     width: 90%;
-    height: 300px;
     background-color: #b5ddff;
     margin: 10px auto;
     border-radius: 22px;
 }
 
 .due-in-uno{
-    width: calc((100% / 3) * 2);
+    /*width: calc((100% / 3) * 2);*/
+    display: flex;
+    flex-direction: column;
+}
+
+.uno{
+    width: 100%;
+    text-align: center;
+}
+.titolo-jumbo{
+    color: #0084fd;
+}
+
+.bottone-jumbo{
+    padding: 4px 63px 4px 63px;
+    margin: 30px 0 30px;
+    border: 0px;
+    border-radius: 20px;
+    background-color: #0084fd;
+    color: white;
+    font-size: 21px;
+}
+
+.titolo-jumbo{
+    font-size: 33px;
+    margin: 22px auto;
+}
+
+.testo-jumbo{
+    font-size: 18px;
+    padding: 3px 30px 0px 30px;
+}
+.fa-apple{
+    font-size: 22px;
+    margin-right: 10px;
+}
+
+
+.due{
+    width: 100%;
+}
+
+.img-jumbo{
+    width: 76%;
+    margin-left: 50px;
+}
+
+/*contenitore viola*/
+
+
+.contenitore-viola{
+    width: 100%;
+    background-color: #9792e4;
+}
+
+.due-colonne{
+    flex-direction: column;
+}
+
+.ragazza-computer{
+    margin: auto;
+    width: 90%;
+}
+
+.ragazza-viola{
+    width: 90%;
+    padding: 50px 0px 30px 25px;
+}
+
+.titolo-ragazza-viola{
+    text-align: center;
+    color: white;
+    font-size: 37px;
+    margin-bottom: 20px;
+}
+
+.testo-ragazza-viola{
+    color: white;
+    padding: 9px 8px 8px 13px;
+    margin-bottom: 30px;
+}
+.cont-bianco{
+    background-color: white;
+    border-radius: 20px;
+    padding-bottom: 30px;
+}
+
+.ragazzo-computer{
+    margin: auto;
+    width: 90%;
+}
+
+.ragazzo-viola{
+    width: 90%;
+    margin: 50px 0px 32px 23px;
+}
+
+.titolo-ragazzo-viola{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+.testo-ragazzo-viola{
+    text-align: center;
+    padding: 5px 30px 10px 30px;
+    font-size: 20px;
+}
+
+.bottone-cont-viola{
+    
 }
