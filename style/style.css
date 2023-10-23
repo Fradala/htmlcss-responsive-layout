@@ -634,6 +634,10 @@ footer{
 
     }
 
+    .titolo-jumbo{
+        font-size: 25px;
+    }
+
     .jumbo{
         width: 80%;
         margin: auto;
@@ -650,6 +654,7 @@ footer{
 
     .bottone-jumbo{
         font-size: 16px;
+        padding: 4px 30px;
     }
 
     .cinque-colonne{
@@ -672,7 +677,7 @@ footer{
         width: 50%;
         position: absolute;
         bottom: 0px;
-        left: 170px;
+        left: 145px;
     }
 
     .colonna{
@@ -717,6 +722,13 @@ footer{
         text-align: center;
         font-size: 20px;
         
+    }
+    .contenitore-testimone{
+        margin-bottom: 80px;
+    }
+
+    .testo-testimoni{
+        margin: 20px;
     }
 
 
