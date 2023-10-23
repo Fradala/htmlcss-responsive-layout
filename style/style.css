@@ -256,11 +256,15 @@ nav .navigator ul li{
 .img-testimone{
     border-radius: 100%;
     overflow: hidden;
+    width: 491px;
+    height: 165px;
+  
+    
 }
 
 .foto{
-    width: 90%;
-    margin: 10px 20px 20px 20px;
+    width: 425px;
+    height: 180px;
 }
 
 .testo-persone{
@@ -478,7 +482,7 @@ footer{
         flex-direction: row;
         flex-wrap: wrap;
         
-        width: calc(100% / 3);
+      
         
         
     }
@@ -582,7 +586,7 @@ footer{
 
 /*DESKTOP*/
 
-@media screen and (min-width: 768){
+@media screen and (min-width: 768px){
 
 
     .navigator{
@@ -594,13 +598,11 @@ footer{
         display: none;
     }
 
-
-
     .cinque-colonne{
         flex-direction: row;
         flex-wrap: wrap;
         
-        width: calc(100% / 3);
+      
         
         
     }
@@ -615,6 +617,7 @@ footer{
 
     }
 
+   
      /*VIOLA*/
 
     .due-colonne{
