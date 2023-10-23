@@ -190,11 +190,12 @@ nav .navigator ul li{
 .ragazzo-computer{
     margin: auto;
     width: 90%;
+    text-align: center;
 }
 
 .ragazzo-viola{
     width: 90%;
-    margin: 50px 0px 32px 23px;
+    
 }
 
 .titolo-ragazzo-viola{
@@ -209,6 +210,13 @@ nav .navigator ul li{
     font-size: 20px;
 }
 
+.bottone-cont-viola{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    border: 0px;
+    background-color: #9792e4;
+}
 
 
 /*testimoni*/
@@ -489,9 +497,10 @@ footer{
         
     }
     .due-in-uno{
-        width: calc((100% / 3) * 2);
+        width: calc((100% / 3) * 2 - 20px);
         display: flex;
         flex-direction: row;
+        margin: 10px;
     }
 
     .colonna{
@@ -611,8 +620,8 @@ footer{
         
     }
     .due-in-uno{
-        width: calc((100% / 3) * 2);
-        
+        width: calc((100% / 3) * 2 - 20px);
+        margin: 10px;
         display: flex;
         flex-direction: row;
     }
@@ -635,7 +644,9 @@ footer{
 
     }
      
-    
+    .ragazza-computer{
+        width: 50%;
+    }
 
     .ragazzo-computer{
         width: 50%;
