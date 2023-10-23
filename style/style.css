@@ -524,6 +524,8 @@ footer{
    }
 
 
+
+
    /*BENEFICI*/
 
    .contenitore-benefici{
@@ -582,6 +584,18 @@ footer{
 
 @media screen and (min-width: 768){
 
+
+    .navigator{
+        display: block;
+        align-items: center;
+    }
+
+    .fa-bars{
+        display: none;
+    }
+
+
+
     .cinque-colonne{
         flex-direction: row;
         flex-wrap: wrap;
@@ -601,7 +615,51 @@ footer{
 
     }
 
+     /*VIOLA*/
+
+    .due-colonne{
+        flex-direction: row;
+    } 
+
+    .contenitore-viola{
+        flex-direction: row;
+
+    }
+     
     
+
+    .ragazzo-computer{
+        width: 50%;
+    }
+
+    
+
+
+    /*TESTIMONI*/
+
+    .testo-testimoni{
+        text-align: center;
+        font-size: 20px;
+        padding: 5px 100px 33px 100px;
+        margin: 11px 60px;
+    }
+
+
+     /*BENEFICI*/
+
+    .contenitore-benefici{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .beneficio{
+        width: calc((100% / 3) - 20px);
+        margin: 10px;
+    }
+
+    .sottotitolo-benefici{
+        margin: 20px 20px 0px 32px;
+    }
 
 }
 
