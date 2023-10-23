@@ -134,6 +134,7 @@ nav .navigator ul li{
 .img-jumbo{
     width: 76%;
     margin-left: 50px;
+
 }
 
 /*FINE PRIMA COLONNA*/
@@ -501,6 +502,14 @@ footer{
         display: flex;
         flex-direction: row;
         margin: 10px;
+        position: relative;
+    }
+
+    .img-jumbo{
+        position: absolute;
+        bottom: 0px;
+        width: 56%;
+        right: 0px;
     }
 
     .colonna{
@@ -677,7 +686,7 @@ footer{
         width: 50%;
         position: absolute;
         bottom: 0px;
-        left: 145px;
+        
     }
 
     .colonna{
