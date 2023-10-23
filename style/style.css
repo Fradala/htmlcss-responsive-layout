@@ -269,6 +269,12 @@ nav .navigator ul li{
     padding: 34px;
 }
 
+.nome-testimone{
+    text-transform: uppercase;
+    color: white;
+    text-align: start;
+}
+
 /*Benefici*/
 
 .benefici{
@@ -501,6 +507,8 @@ footer{
 
     /*TESTIMONI*/
 
+   
+
    .testimone{
     flex-direction: row;
    }
@@ -510,4 +518,90 @@ footer{
     align-items: center;
    }
 
+
+   .testo-persone{
+    width: 200%;
+   }
+
+
+   /*BENEFICI*/
+
+   .contenitore-benefici{
+        flex-direction: row;
+        flex-wrap: wrap;
+   }
+
+   .beneficio{
+        width: calc((100% / 2) - 20px);
+        margin: 10px;
+   }
+
+   .sottotitolo-benefici{
+    margin: 20px 20px 0px 32px;
+   }
+
+
+   /*ABOUT*/
+
+   .contenitore-about{
+    flex-direction: row;
+   }
+
+   .tanto-testo-about{
+    width: 70%;
+   }
+
+   .faccia-about{
+    width: 30%;
+   }
+
+   .testo-about{
+    font-size: 10px;
+   }
+
+   .sottotitolo-about{
+    font-size: 20px;
+   }
+
+   .bottone-about{
+    font-size: 11px;
+   }
+
+   .fa-invision{
+    font-size: 11px;
+   }
+
+   .foto-about{
+    width: 50%;
+   }
+
 }
+
+
+/*DESKTOP*/
+
+@media screen and (min-width: 768){
+
+    .cinque-colonne{
+        flex-direction: row;
+        flex-wrap: wrap;
+        
+        width: calc(100% / 3);
+        
+        
+    }
+    .due-in-uno{
+        width: calc((100% / 3) * 2);
+        display: flex;
+        flex-direction: row;
+    }
+
+    .colonna{
+        width: calc(100% / 3);
+
+    }
+
+    
+
+}
+
