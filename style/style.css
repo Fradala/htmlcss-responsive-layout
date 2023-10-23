@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    font-family: 'PT Sans', sans-serif;
+}
 
 .flex{
     display: flex;
@@ -53,13 +56,15 @@ nav .navigator ul li{
 
 /*jumbo*/
 
+/*PRIMA COLONNA*/
+
 .jumbo{
     width: 100%;
 }
 
 .cinque-colonne{
     flex-direction: column;
-    padding: 40px 0px 40px;
+    padding: 40px 0px 60px;
     
     
 }
@@ -98,11 +103,13 @@ nav .navigator ul li{
 .titolo-jumbo{
     font-size: 33px;
     margin: 22px auto;
+    text-align: center;
 }
 
 .testo-jumbo{
     font-size: 18px;
-    padding: 3px 30px 0px 30px;
+    padding: 3px 30px 30px 30px;
+    text-align: center;
 }
 .fa-apple{
     font-size: 22px;
@@ -118,6 +125,16 @@ nav .navigator ul li{
     width: 76%;
     margin-left: 50px;
 }
+
+/*FINE PRIMA COLONNA*/
+
+.icona{
+    text-align: center;
+    font-size: 100px;
+    margin: 20px;
+}
+
+
 
 /*contenitore viola*/
 
@@ -138,8 +155,8 @@ nav .navigator ul li{
 }
 
 .ragazza-viola{
-    width: 90%;
-    padding: 50px 0px 30px 25px;
+    width: 100%;
+    padding: 50px 10px 30px 10px;
 }
 
 .titolo-ragazza-viola{
@@ -182,9 +199,7 @@ nav .navigator ul li{
     font-size: 20px;
 }
 
-.bottone-cont-viola{
 
-}
 
 /*testimoni*/
 
@@ -225,6 +240,11 @@ nav .navigator ul li{
     padding-bottom: 30px;
     background-color: #9792e4;
     margin-bottom: 30px;
+}
+
+.img-testimone{
+    border-radius: 100%;
+    overflow: hidden;
 }
 
 .foto{
@@ -411,4 +431,31 @@ nav .navigator ul li{
 
 .privacy{
     text-decoration: underline
+}
+
+/*Footer*/
+
+footer{
+    background-color: rgb(34, 33, 33);
+    padding: 50px 0px;
+}
+
+.contenitore-footer{
+    width: 90%;
+    margin: auto;
+}
+.testo-footer{
+    margin: 20px auto 80px;
+}
+
+.colore-linea{
+    color: #9792e4;
+    text-decoration: underline;
+}
+
+/*TABLET*/
+
+@media screen and (min-width: 576px){
+
+    
 }
