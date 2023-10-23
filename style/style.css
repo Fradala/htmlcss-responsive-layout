@@ -369,6 +369,8 @@ nav .navigator ul li{
 .foto-about{
     width: 100%;
     margin: 20px;
+    overflow: hidden;
+    border-radius: 100%;
 }
 
 .sottotitolo-about{
@@ -493,7 +495,8 @@ footer{
     }
 
     .colonna{
-        width: calc(100% / 3);
+        width: calc((100% / 3) - 20px);
+        margin: 10px;
 
     }
 
@@ -592,6 +595,7 @@ footer{
     .navigator{
         display: block;
         align-items: center;
+        display: flex;
     }
 
     .fa-bars{
@@ -608,13 +612,15 @@ footer{
     }
     .due-in-uno{
         width: calc((100% / 3) * 2);
+        
         display: flex;
         flex-direction: row;
     }
 
     .colonna{
-        width: calc(100% / 3);
-
+        width: calc((100% / 3) - 20px);
+        margin: 10px;
+        
     }
 
    
